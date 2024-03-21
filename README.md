@@ -1,2 +1,3 @@
-# CV-with-Design
-this is my cv version 0.2.30 it included with some design and dark/light theme
+# Dino Rey's Webpage
+
+A completely responsive personal blog website that is compatible with all mobile devices, has **Dark and light themes**, and is built using HTML and CSS.
