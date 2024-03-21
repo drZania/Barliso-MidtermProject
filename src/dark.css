@@ -1,0 +1,274 @@
+body {
+    color: white;
+    margin: auto;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bold {
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#dinorey {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.post-blog {
+    margin-top: 5%;
+    width: 18rem;
+    border-radius: 0%;
+    margin: 5% auto;
+}
+
+.esponsive {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 230px;
+}
+
+.name {
+    font-size: 4vw;
+    text-align: center;
+}
+
+a {
+    color: rgb(255, 137, 137);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(113, 255, 137);
+    font-weight: bold;
+}
+
+.poriciti {
+    font-weight: bold;
+}
+
+#section-contact {
+    text-align: center;
+}
+
+#socials {
+    transition-duration: 0.4s;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.text-about {
+    font-size: large;
+    animation: text infinite 1s;
+}
+
+.highlight {
+    text-decoration: none;
+    font-size: larger;
+}
+
+.highlight:hover {
+    animation: infinite .9s text;
+}
+
+.highght:hover {
+    animation: infinite .9s text;
+}
+
+.highight:hover {
+    animation: infinite .9s text;
+}
+
+#socials:hover {
+    text-shadow: 1px 1px #f287d0;
+    font-size: 110%;
+    background-image: linear-gradient(to right top, #d16ba5, #bf83ca, #a49ae3, #8aafef, #7bc1f0, #66ccf3, #56d7f0, #53e1e8, #21eade, #00f1cb, #2ef7af, #5ffb8c);
+}
+
+#section-in-person {
+    text-align: center;
+    margin: 15%;
+}
+
+#message {
+    max-width: 50%;
+}
+#hobbies {
+    font-family: monospace;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+@keyframes text {
+    from {
+        color: rgb(0, 0, 0);
+    }
+    to {
+        color: rgb(49, 210, 111);
+    }
+}
+
+#project:hover {
+    font-weight: bold;
+    text-shadow: 2px 2px #69d5ff;
+}
+
+.skill {
+    margin-bottom: 35px;
+    position: relative;
+    overflow-x: hidden;
+    
+}
+
+.skill>p {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+
+.skill:before {
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 5px;
+    background: #f4392f;
+    display: block;
+    position: relative;
+}
+
+/* SKILL 1 */
+
+.skill1 {
+    width: 95%;
+}
+
+.skill-bar span {
+    position: absolute;
+    border-top: 5px solid #f4392f;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+
+.skill-bar {
+    position: relative;
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+
+/* SKILL 2 */
+
+.skill2 {
+    width: 85%;
+}
+
+.skill2 .skill-count2 {
+    right: 0;
+}
+
+/* SKILL 3 */
+
+.skill3 {
+    width: 75%;
+}
+
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+/* SKILL 4 */
+
+.skill4 {
+    width: 35%
+}
+
+.skill4 .skill-count4 {
+    right: 0;
+}
+
+/* SKILL 5 */
+
+.skill5 {
+    width: 80%;
+}
+
+.skill5 .skill-count5 {
+    right: 0;
+}
+
+/* SKILL 6 */
+
+.skill6 {
+    width: 90%
+}
+
+.skill6 .skill-count6 {
+    right: 0;
+}
+
+.highlight {
+    text-decoration: none;
+    font-size: larger;
+}
+
+.highlight:hover {
+    animation: infinite .8s text;
+}
+
+.highght:hover {
+    animation: infinite .8s text;
+}
+
+.highight:hover {
+    animation: infinite .8s text;
+}
+
+#project {
+    font-family: monospace;
+    font-size: 150%;
+    color: white;
+    text-align: center;
+    background-color: rgb(52, 47, 47);
+    animation: infinite 20s example;
+}
+@keyframes text {
+    from {
+        color: rgb(255, 255, 255);
+    }
+    to {
+        color: rgb(90, 213, 137);
+    }
+}
+
+#project:hover {
+    text-decoration: none;
+    font-size: 160%;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(0, 115, 255);
+}
