@@ -9,5 +9,4 @@ Visit the live preview here: [DEMO](https://drzania.github.io/Barliso-MidtermPro
 
 ## Website Preview
 
-![Preview](https://github.com/drZania/Barliso-MidtermProject/blob/main/img/Barliso-MidtermProject-Preview.png)
-
+![Preview](https://github.com/drZania/Barliso-MidtermProject/blob/main/img/Preview.png)
